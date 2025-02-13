@@ -1,3 +1,20 @@
 * {
     background-color: blue;
 }
+
+#container {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 24%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.black-square {
+    background-color: black;
+}
