@@ -9,7 +9,7 @@
 }
 
 .square {
-    width: 24%;
+    width: 6%;
     aspect-ratio: 1/1;
     background-color: white;
     border: 1px solid black;
@@ -17,4 +17,7 @@
 
 .black-square {
     background-color: black;
+    width: 6%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
 }
