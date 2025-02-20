@@ -41,7 +41,7 @@ pixelButton.addEventListener("click", (event) => {
     let squares = document.querySelectorAll(".square");
     
     // set width of squares
-    let widthPercentage = (100/pixelCount) - 0.1;
+    let widthPercentage = (100/pixelCount);
     let newWidth = widthPercentage + "%";
     squares.forEach(function (square) {
         square.style.width = newWidth;
